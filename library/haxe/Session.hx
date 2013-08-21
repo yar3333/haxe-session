@@ -8,8 +8,8 @@ private typedef HaxeSession = php.Session;
 
 class Session
 {
-	public static var gcStartChance(null, gcStartChance_setter) : Float;
-	static inline function gcStartChance_setter(chance:Float) : Float
+	public static var gcStartChance(null, set_gcStartChance) : Float;
+	static inline function set_gcStartChance(chance:Float) : Float
 	{
 		#if php
 		// for PHP is not a possible to set this at runtime. See php.ini.
@@ -19,8 +19,8 @@ class Session
 		return chance;
 	}
 	
-	public static var gcMaxLifeTime(null, gcMaxLifeTime_setter) : Int;
-	static inline function gcMaxLifeTime_setter(seconds:Int) : Int
+	public static var gcMaxLifeTime(null, set_gcMaxLifeTime) : Int;
+	static inline function set_gcMaxLifeTime(seconds:Int) : Int
 	{
 		#if php
 		// for PHP is not a possible to set this at runtime. See php.ini.
@@ -30,8 +30,8 @@ class Session
 		return seconds;
 	}
 	
-	public static var savePath(null, savePath_setter) : String;
-	static inline function savePath_setter(path:String) : String
+	public static var savePath(null, set_savePath) : String;
+	static inline function set_savePath(path:String) : String
 	{
 		HaxeSession.setSavePath(path);
 		return path;
