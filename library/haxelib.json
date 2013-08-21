@@ -1,0 +1,11 @@
+{
+  "name": "session",
+  "license": "LGPL",
+  "tags": ["haxe","php","neko","session","sessions"],
+  "description": "Basic web sessions support for neko platform with common (php/neko) proxy class. Based on Andreas Soderlund's code.",
+  "contributors": ["yar3333"],
+  "releasenote": "haxe 3 support.",
+  "version": "1.2",
+  "url": "https://code.google.com/p/haxe-session",
+  "dependencies": {}
+}
