@@ -72,5 +72,3 @@ class Session
 		HaxeSession.clear();
 	}
 }
-
-
