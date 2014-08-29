@@ -4,8 +4,8 @@
   "tags": ["haxe","php","neko","sessions"],
   "description": "Basic web sessions support for neko platform with common (php/neko) proxy class. Based on Andreas Soderlund's code.",
   "contributors": ["yar3333"],
-  "releasenote": "Haxe 3 support.",
-  "version": "1.2.0",
+  "releasenote": "Move sources from google to bitbucket.",
+  "version": "1.2.1",
   "url": "https://bitbucket.org/yar3333/haxe-session",
   "dependencies": {}
 }
